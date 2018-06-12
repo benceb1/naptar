@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="naptarfx.RegController">
+   <children>
+      <Label layoutX="78.0" layoutY="27.0" text="Regisztráció">
+         <font>
+            <Font name="Comic Sans MS" size="33.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="46.0" layoutY="74.0" prefHeight="353.0" prefWidth="256.0" spacing="30.0">
+         <children>
+            <TextField fx:id="tbregNev" prefHeight="25.0" prefWidth="200.0" promptText="Teljes név szóközzel elválasztva" />
+            <TextField fx:id="tbregFNev" prefHeight="25.0" prefWidth="200.0" promptText="Felhasználónév" />
+            <PasswordField fx:id="tbregJelsz" promptText="Jelszó" />
+            <PasswordField fx:id="tbregJelszujra" promptText="Jelszó újra" />
+            <DatePicker fx:id="regdatepick" prefHeight="25.0" prefWidth="262.0" promptText="Születési dátum" />
+            <Button fx:id="btnReg" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Regisztrálok" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

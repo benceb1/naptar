@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="382.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="naptarfx.ujHataridoC">
+   <children>
+      <ComboBox id="cbOra" fx:id="cbOra" layoutX="84.0" layoutY="309.0" prefHeight="25.0" prefWidth="62.0" />
+      <ComboBox id="cbPerc" fx:id="cbPerc" layoutX="204.0" layoutY="309.0" prefHeight="25.0" prefWidth="62.0" />
+      <Label layoutX="123.0" layoutY="14.0" text="Új határidő">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cimText" layoutX="40.0" layoutY="67.0" prefHeight="25.0" prefWidth="262.0" />
+      <TextArea fx:id="szovegText" layoutX="40.0" layoutY="117.0" prefHeight="147.0" prefWidth="262.0" wrapText="true" />
+      <Label layoutX="40.0" layoutY="48.0" text="Cím:" />
+      <Label layoutX="40.0" layoutY="100.0" text="Szöveg:" />
+      <DatePicker fx:id="datepicker" layoutX="40.0" layoutY="276.0" showWeekNumbers="true" />
+      <Label layoutX="53.0" layoutY="313.0" text="Óra:" />
+      <Label layoutX="167.0" layoutY="313.0" text="Perc:" />
+      <CheckBox fx:id="cbMegoszt" layoutX="48.0" layoutY="351.0" mnemonicParsing="false" text="Megosztva" />
+   </children>
+</AnchorPane>

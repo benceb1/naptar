@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="naptarfx.UjFeljegyzesController">
+   <children>
+      <Label layoutX="120.0" layoutY="23.0" text="Új feljegyzés">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="60.0" text="Rövid leírás:" />
+      <Label layoutX="48.0" layoutY="117.0" text="Szöveg:" />
+      <TextField fx:id="cimText" layoutX="37.0" layoutY="85.0" prefHeight="25.0" prefWidth="266.0" />
+      <TextArea fx:id="szovegText" layoutX="37.0" layoutY="140.0" prefHeight="200.0" prefWidth="266.0" wrapText="true" />
+      <CheckBox fx:id="cbMegoszt" layoutX="50.0" layoutY="349.0" mnemonicParsing="false" text="Megosztva" />
+   </children>
+</AnchorPane>

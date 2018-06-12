@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Apr 06 00:05:48 CEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0162-97d8-25cb-000005a80000 
+on database directory C:\Users\User\Desktop\mentés\naptarFX\naptarDB with class loader sun.misc.Launcher$AppClassLoader@3d4eac69 
+Loaded from file:/C:/Users/User/Desktop/ment%c3%a9s/naptarFX/dist/run153245005/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=C:\Users\User\Desktop\mentés\naptarFX
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
